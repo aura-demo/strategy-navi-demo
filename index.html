@@ -15,7 +15,8 @@ button{width:100%;padding:11px;border:none;border-radius:8px;background:#ffd75e;
 <div class="box">
   <h1>Galapagos AI デモ</h1>
   <p>パスワードを入力してください</p>
-  <input id="pw" type="password" placeholder="Password" autofocus>
+  <input id="un" type="text" name="username" autocomplete="username" value="商談戦略ナビ" readonly style="background:transparent;color:#fff;border:1px solid rgba(255,255,255,.25);text-align:center">
+  <input id="pw" type="password" name="password" autocomplete="current-password" placeholder="Password" autofocus>
   <button onclick="go()">開く</button>
   <div class="err" id="err"></div>
 </div>
